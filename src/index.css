@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+    background-color: #07050d;
+    color: #e2d8ff;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+  }
+}
+
+.sdc-grid-bg {
+  background-color: #07050d;
+  background-image:
+    radial-gradient(circle at 50% 48%, rgba(124, 58, 237, 0.14) 0%, rgba(88, 28, 135, 0.05) 38%, transparent 70%),
+    linear-gradient(to right, rgba(139, 92, 246, 0.085) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(139, 92, 246, 0.085) 1px, transparent 1px);
+  background-size: 100% 100%, 58px 58px, 58px 58px;
+  background-position: center center, center center, center center;
+}

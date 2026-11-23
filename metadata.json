@@ -1,0 +1,6 @@
+{
+  "name": "SDC Boot Sequence",
+  "description": "Cyclic 9-frame ASCII decoder boot sequence animation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
